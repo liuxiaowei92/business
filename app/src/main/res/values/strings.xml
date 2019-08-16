@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">business</string>
+    <string name="str_home_home">首页</string>
+    <string name="str_home_message">消息</string>
+    <string name="str_home_mine">我的</string>
+    <string name="str_home_yutang">鱼糖</string>
+    <string name="tv_home_search">搜索</string>
 </resources>

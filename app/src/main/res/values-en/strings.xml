@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">business</string>
+    <string name="str_home_home">home</string>
+    <string name="str_home_message">news</string>
+    <string name="str_home_mine">mine</string>
+    <string name="str_home_yutang">yutang</string>
+</resources>
