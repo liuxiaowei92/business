@@ -1,5 +1,6 @@
 package com.study.business.base;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,10 +15,12 @@ import butterknife.ButterKnife;
  * created by Administrator on 2019/8/15
  */
 public abstract class BaseFragment extends Fragment {
-
+    public String TAG;
+    protected Activity mContext;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+       TAG=getClass().getSimpleName();
         View view=null;
         //找到注解的类
         ViewInject annotation=this.getClass().getAnnotation(ViewInject.class);

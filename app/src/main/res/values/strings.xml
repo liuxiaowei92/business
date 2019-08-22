@@ -5,4 +5,8 @@
     <string name="str_home_mine">我的</string>
     <string name="str_home_yutang">鱼糖</string>
     <string name="tv_home_search">搜索</string>
+    <string name="video">hah</string>
+    <string name="dian_zan">点赞</string>
+    <string name="tian_qian">天前</string>
+    <string name="today_zuixing">今日最新</string>
 </resources>

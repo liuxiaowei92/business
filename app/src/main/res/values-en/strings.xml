@@ -4,4 +4,8 @@
     <string name="str_home_message">news</string>
     <string name="str_home_mine">mine</string>
     <string name="str_home_yutang">yutang</string>
+    <string name="tv_home_search">search</string>
+    <string name="video">hah</string>
+    <string name="dian_zan">点赞</string>
+
 </resources>

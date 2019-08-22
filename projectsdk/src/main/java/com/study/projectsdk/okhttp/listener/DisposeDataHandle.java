@@ -1,0 +1,20 @@
+package com.study.projectsdk.okhttp.listener;
+
+/**
+ * created by lxw on 2019/8/19
+ *
+ * @function
+ */
+public class DisposeDataHandle {
+    public DisposeDataListener mListener=null;
+    public Class<?> mClass=null;
+
+    public DisposeDataHandle(DisposeDataListener listener){
+        this.mListener=listener;
+    }
+    public DisposeDataHandle(DisposeDataListener listener,Class<?> clazz){
+        this.mListener=listener;
+        this.mClass=clazz;
+    }
+
+}

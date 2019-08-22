@@ -36,5 +36,7 @@ dependencies {
     //butterknife
     implementation 'com.jakewharton:butterknife:10.1.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
-
+    implementation project(path: ':projectsdk')
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'me.angeldevil:AutoScrollViewPager:1.0.8'
 }
